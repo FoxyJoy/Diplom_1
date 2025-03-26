@@ -28,4 +28,3 @@ class Ingredient:
     # Возвращает строковое представление ингредиента. Формат: "ТИП: название ($цена)"
     def __str__(self) -> str:
         return f"{self.type}: {self.name} (${self.price})"
-

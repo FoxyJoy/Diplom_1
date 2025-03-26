@@ -3,8 +3,6 @@ from typing import List
 from stellar_burgers.bun import Bun
 from stellar_burgers.ingredient import Ingredient
 
-
-
 class Burger:
     """
     Модель бургера.
